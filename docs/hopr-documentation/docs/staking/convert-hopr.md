@@ -6,14 +6,14 @@ title: Converting HOPR token
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-Like DAI and xDAI, HOPR and xHOPR exist in a 1:1 relationship on xDAI Chain and Ethereum mainnet, respectively. To convert between them, you need to use a tool called a Omnibridge found at [https://omni.xdaichain.com](https://omni.xdaichain.com)
+Like DAI and xDAI, HOPR and xHOPR exist in a 1:1 relationship on Gnosis Chain and Ethereum mainnet, respectively. To convert between them, you need to use a tool called a Omnibridge found at [https://omni.xdaichain.com](https://omni.xdaichain.com)
 
 <Tabs>
 <TabItem value="xhtoh" label="xHOPR to HOPR">
 
 :::tip
 
-Your wallet needs to be connected to xDAI Chain. If you haven’t set that up yet, you can find the details [here](https://www.xdaichain.com/for-users/wallets/metamask/metamask-setup). You’ll need to select “Add Custom RPC” in your wallet and fill in the information.
+Your wallet needs to be connected to Gnosis Chain. If you haven’t set that up yet, you can find the details [here](https://www.xdaichain.com/for-users/wallets/metamask/metamask-setup). You’ll need to select “Add Custom RPC” in your wallet and fill in the information.
 
 :::
 
@@ -34,7 +34,7 @@ A popup will appear. Select the wallet you want to use and click "Next".
 
 ![Convert xHOPR to HOPR](/img/convertion/xh_h-4.png)
 
-3. Search for HOPR token and click on it. After selecting HOPR token, it will say “HOPR Token on xDAI” on the “From” side and “HOPR Token” will be automatically selected on the “To” side.
+3. Search for HOPR token and click on it. After selecting HOPR token, it will say “HOPR Token on Gnosis” on the “From” side and “HOPR Token” will be automatically selected on the “To” side.
 
 ![Convert xHOPR to HOPR](/img/convertion/xh_h-5.png)
 
@@ -50,7 +50,7 @@ Once you’re ready to start the transfer, press “Continue”
 
 ![Convert xHOPR to HOPR](/img/convertion/xh_h-7.png)
 
-You need to wait for 12 block confirmations before the transfer begins. This will happen on the xDAI side so should only take around a minute.
+You need to wait for 12 block confirmations before the transfer begins. This will happen on the Gnosis side so should only take around a minute.
 
 If you click the blue link, you’ll see what’s going on behind the scenes.
 
@@ -66,7 +66,7 @@ Once the transaction reaches 12 block confirmations, an automated multisig will 
 
 ![Convert xHOPR to HOPR](/img/convertion/xh_h-9.png)
 
-Your tokens will need to be claimed on the other side of the bridge. To do this, your wallet will need to be disconnected from xDAI Chain and connected to the Ethereum mainnet.
+Your tokens will need to be claimed on the other side of the bridge. To do this, your wallet will need to be disconnected from Gnosis Chain and connected to the Ethereum mainnet.
 
 In the Omnibridge, you’ll see a popup asking you to do just that:
 
@@ -87,9 +87,9 @@ Converting from HOPR to xHOPR works in exactly the same way like from xHOPR to H
 
 - There’s no bridge fee.
 - You’ll obviously need to switch which address goes in which box when adding the assets
-- There won’t be a “Claim” process like in the xDAI to ETH direction — you’ll just receive your tokens.
+- There won’t be a “Claim” process like in the Gnosis to ETH direction — you’ll just receive your tokens.
 
-If your metamask wallet will be on Ethereum network, then after connecting your wallet with Omnibridge, it will show you on the "From" side "ETH Mainnet" and on the "To" side "xDai chain".
+If your metamask wallet will be on Ethereum network, then after connecting your wallet with Omnibridge, it will show you on the "From" side "ETH Mainnet" and on the "To" side "Gnosis chain".
 
 1. Now you need to select your tokens to swap. Select the dropdown menu on the “From” side of the bridge and find a HOPR token.
 2. Enter the amount you want to transfer across the Omnibridge. The amount you will receive will be shown on the other side.
@@ -101,14 +101,14 @@ And confirm the prompt that appears from your wallet.
 
 ![Convert xHOPR to HOPR](/img/convertion/h_xh-2.png)
 
-After unlocking, press “Transfer” button to begin the transfer, confirm the transaction. Wait a little bit and your HOPR tokens from ETH network will be transferred to xDai network.
+After unlocking, press “Transfer” button to begin the transfer, confirm the transaction. Wait a little bit and your HOPR tokens from ETH network will be transferred to Gnosis network.
 
 </TabItem>
 <TabItem value="xhtowxh" label="xHOPR to wxHOPR">
 
 To convert between xHOPR and wxHOPR you should use the HOPR wrapper, found at [https://wrapper.hoprnet.org](https://wrapper.hoprnet.org)
 
-Switch your wallet to xDAI Chain and press “Connect Wallet”.
+Switch your wallet to Gnosis Chain and press “Connect Wallet”.
 
 ![Convert xHOPR to HOPR](/img/convertion/wrapper-1.png)
 
